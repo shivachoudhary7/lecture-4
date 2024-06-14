@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+    int first_variable = 3;
+    int second_variable = 5;
+    
+    int sum = first_variable + second_variable;
+    
+    std::cout << "The sum of " << first_variable << " and " << second_variable << " is: " << sum << std::endl;
+    
+    return 0;
+}
